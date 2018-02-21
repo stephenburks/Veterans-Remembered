@@ -41,7 +41,7 @@ p {
     Class Selectors
 ------------------- */
 .bg { 
-    background-image: url("bg-veterans.jpg");
+    background-image: url("Veterans-Remembered/bg-veterans.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
