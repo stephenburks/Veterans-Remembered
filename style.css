@@ -1,0 +1,71 @@
+/* -------------------
+    Element Selectors
+------------------- */
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+body, 
+html {
+    height: 100%;
+}
+
+hr {
+   border: 1px solid #fff; 
+   max-width: 70%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* -------------------
+    ID Selectors
+------------------- */
+
+#img-overlay {
+    position: absolute;
+    background: linear-gradient(rgba(189, 17, 52, 0.7),rgba(3, 42, 102, 0.7));
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
+
+
+/* -------------------
+    Class Selectors
+------------------- */
+.bg { 
+    background-image: url("http://military.jobs-ups.com/bundles/vcg/images/slider/esgr.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: 1;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.motto {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.icons {
+    fill: rgba(225, 225, 225, 1);
+}
+
+.icons:hover {
+    fill: rgba(225, 225, 225, 0.7);
+}
