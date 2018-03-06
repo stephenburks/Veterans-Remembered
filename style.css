@@ -30,6 +30,10 @@ header,
     color: #06347D;
 }
 
+#links:hover {
+    background-color: #06347D;
+}
+
 /* -----------------------
     Class Selectors 
 ------------------------*/
@@ -48,10 +52,6 @@ header,
 
 .navbar a{
     color: white;
-}
-
-.navbar a:hover{
-    background-color: #06347D;
 }
 
 .steps {
